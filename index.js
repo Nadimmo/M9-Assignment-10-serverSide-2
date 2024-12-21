@@ -5,7 +5,7 @@ const port = process.env.PORT || 5000;
 require('dotenv').config();
 // middleware
 app.use(cors({
-  Origin: ["http://localhost:5173", "https://assignment-10-b4d8f.web.app"]
+  Origin: ["http://localhost:5173", "https://assignment-10-b4d8f.web.app", "https://touristsports.vercel.app"]
 }))
 app.use(express.json())
 
